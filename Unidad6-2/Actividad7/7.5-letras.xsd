@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="letras">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element name="alfa" max0ccurs ="unbounded" min0ccurs ="0"/>
+                <xs:element name="beta" max0ccurs ="unbounded" min0ccurs ="0"/>
+                <xs:element name="gamma" max0ccurs ="unbounded" min0ccurs ="0"/>
+                <xs:element name="omega" max0ccurs ="unbounded" min0ccurs ="0"/>
+                <xs:element name="epsilon" max0ccurs ="unbounded" min0ccurs ="0"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>

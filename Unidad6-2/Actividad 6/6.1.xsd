@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "etiqueta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name ="nombre" max0ccurs="unbounded">
+                <xs:element name="calle" type ="xs:string"/>
+                <xs:element name="ciudad" type="xs:string"/>
+                <xs:element name="pais" type="xs:string" min0ccurs="1" />
+                <xs:element name="codigo" type="xs:string" min0ccurs="1"/>
+                <xs:element name="matriculado"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

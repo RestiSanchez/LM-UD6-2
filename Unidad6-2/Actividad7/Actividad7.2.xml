@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamesspaceSchemaLocation= "7.2-empleados.xsd">
+    <empleado>
+        <nombre>Juan</nombre>
+        <apellidos>Pérez</apellidos>
+         <dni>78907651D</dni>
+    </empleado>
+    <empleado>
+        <dni>73601652Z</dni>
+         <apellidos>Rodriguez</apellidos>
+        <nombre>Martín</nombre>
+    </empleado>
+</empleados>

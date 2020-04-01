@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="letras">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="omega"/>
+                <xs:element name="beta"/>
+                <xs:element name="epsilon"/>
+                <xs:element name="alfa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

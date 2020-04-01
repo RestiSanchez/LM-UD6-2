@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "filmoteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "pelicula" min0ccurs ="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name ="titulo" type = "xs:string"/>
+                            <xs:element name ="anyo" type = "xs:integer"/>
+                            <xs:element name = "actores"/>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name ="actor" type="xs:string" min0ccurs="0" max0ccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                        </xs:sequence>
+                    </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mensajes xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamesspaceSchemaLocation= "6.0.xsd">
+    <mensaje>
+        <de>restisanchez1999@gmail.com</de>
+        <para>pccomponentes@gmail.com</para>
+        <asunto>PC MEGAULTRABARATO</asunto>
+        <contenido>----</contenido>
+    </mensaje>
+</mensajes>
